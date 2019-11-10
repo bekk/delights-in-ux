@@ -5,10 +5,11 @@ const Oppgave1 = () => {
     return (
         <Oppgave
             oppgaveNummer="1"
-            beskrivelse="Beskrivelse"
+            beskrivelse="Teksten dukker opp når man trykker i feltet"
             eksempel="eksempel.png"
         >
-            Her kommer oppgaven
+            <input type="text"></input>
+            <p>Her er det en hjelpetekst</p>
         </Oppgave>
     );
 };
